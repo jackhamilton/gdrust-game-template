@@ -4,3 +4,6 @@
 [submodule "rust/src/gdrust-trinkets"]
 	path = rust/src/gdrust-trinkets
 	url = https://github.com/jackhamilton/gdrust-trinkets.git
+[submodule "rust/src/gdrust_trinkets"]
+	path = rust/src/gdrust_trinkets
+	url = https://github.com/jackhamilton/gdrust-trinkets.git
