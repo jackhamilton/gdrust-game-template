@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Rosemi"
-run/main_scene="uid://c46ie1wo70cod"
-config/features=PackedStringArray("4.4", "Mobile")
+run/main_scene="uid://dd4wedw83l0f7"
+config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
@@ -20,10 +20,6 @@ config/icon="res://icon.svg"
 window/size/viewport_height=720
 window/stretch/mode="viewport"
 window/stretch/scale_mode="integer"
-
-[gui]
-
-theme/custom="uid://g6s7kyscpx8r"
 
 [input]
 
