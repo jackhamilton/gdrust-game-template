@@ -9,14 +9,8 @@ crate-type = ["cdylib"]  # Compile this crate to a dynamic C library.
 [dependencies]
 freezable-trait = "~0"
 mutex = "1.0.2"
+opencompose-rs = { version = "~0", path = "../../opencompose-rs" }
 regex = "1.11.1"
 serde = "1.0.228"
 serde_json = "1.0.145"
-
-[dependencies.godot]
-git = "https://github.com/godot-rust/gdext"
-branch = "master"
-features = ["experimental-wasm", "lazy-function-tables"]
-
-[features]
-nothreads = ["godot/experimental-wasm-nothreads"]
+godot = "0.4.4"
