@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://bojonmb4eeph1"]
 
-[node name="SampleUi" type="Control"]
-layout_mode = 3
+[node name="SampleUi" type="CenterContainer"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -14,17 +13,6 @@ offset_bottom = 360.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="SampleUI" type="SampleUI" parent="."]
-custom_minimum_size = Vector2(116, 604)
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -58.0
-offset_top = -302.0
-offset_right = 58.0
-offset_bottom = 302.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="ButtonSampleUI" type="ButtonSampleUI" parent="."]
+custom_minimum_size = Vector2(404, 89)
+layout_mode = 2
