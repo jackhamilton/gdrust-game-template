@@ -29,18 +29,21 @@ impl IControl for ButtonSampleUI {
         let mut dsl_ast = view_builder! {
             Column {
                 Text("Title")
+                    .horizontal_text_alignment(alignment: Alignment::Center)
                     .font_size(24)
                 Text("Subtitle")
                     .font_size(12)
                 Row {
                     Button(action: || {
-                        godot_print!("Pressed");
+                        godot_print!("Pressed button 1");
                     }) {
                         Text("Action 1")
                             .alignment(horizontal: Alignment::Center, vertical: Alignment::Center)
                     }
                     .frame(width: 200, height: 30)
-                    Button(action: || {}) {
+                    Button(action: || {
+                        godot_print!("Pressed button 2");
+                    }) {
                         Text("Action 2")
                             .alignment(horizontal: Alignment::Center, vertical: Alignment::Center)
                     }
